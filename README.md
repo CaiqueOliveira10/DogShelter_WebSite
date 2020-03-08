@@ -1,5 +1,5 @@
 # DogShelter_WebSite
-<h3>DogShelter Website Made by <a href="https://materializecss.com/">Materialize</a> </h3>
+<h3>DogShelter Website Made by <a href="https://materializecss.com/">Materialize</a>. </h3>
 <br>
 <img src="images/site.jpg"/>
 <br>
