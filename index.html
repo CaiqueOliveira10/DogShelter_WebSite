@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Shelter</title>
+    <link rel="shortcut icon" href="images/tab-icon.png" />
+
+    <!-- Materialize -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif|Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+</head>
+
+<body>
+
+    <!-- Menu -->
+    <nav class="nav-wrapper ">
+        <div class="container">
+            <a href="#" class="brand-logo">Shelter</a>
+            <a href="#" data-target="menu-responsive" class="sidenav-trigger">
+                <i class="material-icons">menu</i>
+            </a>
+
+            <ul class="right  hide-on-med-and-down">
+                <li><a href="#"><i class="fa fa-paw" aria-hidden="true"></i>About the shelter</a></li>
+                <li><a href="#"><i class="fa fa-paw" aria-hidden="true"></i>Our pets</a></li>
+                <li><a href="#"><i class="fa fa-paw" aria-hidden="true"></i>Help the shelter</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <ul class="sidenav" id="menu-responsive">
+        <img src="images/logo-nav.png" alt="">
+        <li><a href="#"><i class="fa fa-paw" aria-hidden="true"></i>About the shelter</a></li>
+        <li><a href="#"><i class="fa fa-paw" aria-hidden="true"></i>Our pets</a></li>
+        <li><a href="#"><i class="fa fa-paw" aria-hidden="true"></i>Help the shelter</a></li>
+        <img id="donate" src="images/donate.png" alt="">
+
+        <a class="grey-text text-lighten-4 right" href="#!">
+            <i class="fa fa-facebook-square sidenav-icon" aria-hidden="true"></i>
+            <i class="fa fa-twitter sidenav-icon" aria-hidden="true"></i>
+            <i class="fa fa-instagram sidenav-icon" aria-hidden="true"></i>
+        </a>
+    </ul>
+    <!-- Menu -->
+
+
+    <!-- Carousel -->
+    <div class="slider">
+        <ul class="slides">
+            <li>
+                <img class="responsive-img" src="images/beagle.png">
+                <div class="caption left-align">
+                    <h3 class="title-slide">Adopt a friend.</h3>
+                    <h5 class="light grey-text text-lighten-3">The dog is man's best friend.</h5>
+                </div>
+            </li>
+
+            <li>
+                <img src="images/dogs.png">
+                <div class="caption left-align">
+                    <h3 class="title-slide">Create happiness. Save lives.</h3>
+                    <h5 class="light white-text">Not only people need a house.</h5>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <!-- Carousel -->
+
+    <!-- About Default -->
+    <section id="about" class="show-on-medium-and-up hide-on-small-only">
+        <div class="container clearfix">
+            <div id="about-img">
+                <img src="images/about.png" alt="">
+            </div>
+
+            <div id="about-content">
+                <h2>About the shelter.</h2>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce efficitur blandit
+                    condimentum. Proin accumsan lorem vel gravida fringilla. Suspendisse potenti. Mauris ut pulvinar
+                    nunc.
+                </p>
+
+                <p>Donec consectetur, diam in porta tempus, urna ligula vestibulum nibh, ac ornare felis justo
+                    nec leo. Praesent mattis nibh quis ultrices pharetra. Morbi tempus at ante sit amet tristique.
+                    Maecenas dignissim justo orci,
+                    in laoreet urna dapibus nec. Praesent quis tortor faucibus, tristique ante vitae, dignissim lorem.
+                    Sed
+                    at ligula et sem mattis gravida ac vel erat.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- About Default -->
+
+
+    <!-- About Mobile -->
+    <section id="about-mobile" class="hide-on-med-and-up show show-on-small">
+        <div class="container-mobile clearfix">
+            <div id="about-img">
+                <img src="images/about.png" alt="">
+            </div>
+
+            <div id="about-content-mobile">
+                <h2>About the shelter.</h2>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce efficitur blandit
+                    condimentum. Proin accumsan lorem vel gravida fringilla. Suspendisse potenti. Mauris ut pulvinar
+                    nunc.
+                </p>
+
+                <p>Donec consectetur, diam in porta tempus, urna ligula vestibulum nibh, ac ornare felis justo
+                    nec leo. Praesent mattis nibh quis ultrices pharetra. Morbi tempus at ante sit amet tristique.
+                    Maecenas dignissim justo orci,
+                    in laoreet urna dapibus nec. Praesent quis tortor faucibus, tristique ante vitae, dignissim lorem.
+                    Sed
+                    at ligula et sem mattis gravida ac vel erat.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- About Mobile -->
+
+
+    <!-- Cards -->
+    <h1 id="titleCard" class="center-align">Our friends who are looking for a house.</h1>
+
+    <div class="container2">
+        <div class="row">
+            <div class="col 14 m4 s12">
+                <div class="card sticky-action">
+                    <div class="card-image" class="materialboxed">
+                        <img src="images/dog1.jpg" alt="" class="materialboxed">
+                        <span class="card-title">Bob</span>
+                        <a class="btn red btn-floating halfway-fab pulse activator">+</a>
+                    </div>
+
+                    <div class="card-content">
+                        <p>the king of the jungle.</p>
+                    </div>
+
+                    <div class="card-reveal">
+                        <span class="card-title">Bob<i class="right">X</i></span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi euismod id est quis consequat. Morbi nec risus in sem congue porta non et erat. 
+                            enean at est turpis. Nulla condimentum magna et ex pharetra interdum. Fusce luctus odio non elementum vestibulum. Aenean pretium hendrerit purus eget commodo. 
+                            Maecenas nec nunc purus. Pellentesque in ante convallis, feugiat eros nec, consequat diam.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col 14 m4 s12">
+                <div class="card sticky-action">
+                    <div class="card-image">
+                        <img src="images/dog2.jpg" alt="" class="materialboxed">
+                        <span class="card-title">Jorge</span>
+                        <a class="btn red btn-floating halfway-fab pulse activator">+</a>
+                    </div>
+
+                    <div class="card-content">
+                        <p>the king of the jungle.</p>
+                    </div>
+
+                    <div class="card-reveal">
+                        <span class="card-title">Jorge<i class="right">X</i></span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi euismod id est quis consequat. Morbi nec risus in sem congue porta non et erat. 
+                            enean at est turpis. Nulla condimentum magna et ex pharetra interdum. Fusce luctus odio non elementum vestibulum. Aenean pretium hendrerit purus eget commodo. 
+                            Maecenas nec nunc purus. Pellentesque in ante convallis, feugiat eros nec, consequat diam.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col 14 m4 s12">
+                <div class="card sticky-action">
+                    <div class="card-image">
+                        <img src="images/dog3.jpg" alt="" class="materialboxed">
+                        <span class="card-title">Charlie</span>
+                        <a class="btn red btn-floating halfway-fab pulse activator">+</a>
+                    </div>
+
+                    <div class="card-content">
+                        <p>the king of the jungle.</p>
+                    </div>
+
+                    <div class="card-reveal">
+                        <span class="card-title">Charlie<i class="right">X</i></span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi euismod id est quis consequat. Morbi nec risus in sem congue porta non et erat. 
+                            enean at est turpis. Nulla condimentum magna et ex pharetra interdum. Fusce luctus odio non elementum vestibulum. Aenean pretium hendrerit purus eget commodo. 
+                            Maecenas nec nunc purus. Pellentesque in ante convallis, feugiat eros nec, consequat diam.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <a id="btn-seemore" href="" class="btn-large">See more animals</a>
+    </div>
+    <!-- Cards -->
+
+    <br>
+
+    <!-- footer -->
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <img src="images/footer-paw.png" alt="">
+                </div>
+
+                <div class="col l4 offset-l2 s12">
+                    <h5 id="title-footer" class="white-text">About us</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#!">Contact</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Who we are</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Donate</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Privacy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-copyright">
+            <div class="container">
+                © 2020 Copyright.
+                <a class="grey-text text-lighten-4 right" href="#!">
+                    <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <!-- footer -->
+
+
+
+    <!--JavaScript/Jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!--Materializecss Slider-->
+    <script>
+        $(document).ready(function () {
+            $('.slider').slider({
+                full_width: true,
+                height: 925
+            });
+        });
+    </script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const gallery = document.querySelectorAll(".materialboxed");
+            M.Material.init(gallery, {});
+        });
+    </script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            //var elems = document.querySelectorAll('.sidenav');
+            //var instances = M.Sidenav.init(elems);
+            M.AutoInit();
+        });
+    </script>
+
+</body>
+</html>
